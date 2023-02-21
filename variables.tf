@@ -16,7 +16,7 @@ variable "vcpu" {
 }
 variable "distros" {
   type = list
-  default = ["server_ubuntu2204", "database_ubuntu2204", "proxy_ubuntu2204"]
+  default = ["server_ubuntu", "database_ubuntu", "proxy_ubuntu"]
 }
 variable "ips" {
   type = list

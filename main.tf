@@ -36,6 +36,7 @@ resource "libvirt_domain" "domain-distro" {
   memory = var.memory
   vcpu   = var.vcpu
   cloudinit = element(libvirt_cloudinit_disk.commoninit.*.id, count.index)
+  autostart = true
   
   network_interface {
       network_name = "default"
