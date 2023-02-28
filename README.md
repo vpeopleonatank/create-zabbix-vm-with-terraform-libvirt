@@ -13,3 +13,9 @@ virsh pool-define-as --name zabbix-monitor-pool --type dir --target volumes/
 virsh pool-autostart zabbix-monitor-pool
 virsh pool-start zabbix-monitor-pool
 ```
+
+# Create vm with terraform
+```bash
+terraform init
+terraform apply -auto-approve
+```
