@@ -1,3 +1,8 @@
+# Prepare cloud images
+```bash
+./prepare_cloud_img.sh
+```
+
 # Create SSH Publickey
 ```bash
 mkdir ssh
